@@ -1,0 +1,2 @@
+# Barista
+The espresso manager
