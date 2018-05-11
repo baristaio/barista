@@ -25,19 +25,18 @@
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "coveralls": "^3.0.1",
-
     "istanbul": "^0.4.5",
     "mocha": "^5.1.1",
     "request": "^2.83.0"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://github.com/vadimri/Barista.git"
+    "url": "git@github.com:baristaio/barista.git"
   },
   "author": "vadimri",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vadimri/Barista/issues"
+    "url": "https://github.com/baristaio/barista/issues"
   },
-  "homepage": "https://github.com/vadimri/Barista#readme"
+  "homepage": "https://github.com/baristaio/barista#readme"
 }
