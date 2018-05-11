@@ -22,6 +22,6 @@ const stop = service.start();
 // stop the service after 1 minute
 setTimeout( ()=> {
     service.stop('Time expired');
-}, 60* 1000);
+}, 60* 1000*10);
 
 
