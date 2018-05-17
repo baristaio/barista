@@ -1,0 +1,6 @@
+---
+applications:
+- name: Barista
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  command: npm prod
+  command: node ./dist

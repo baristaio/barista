@@ -14,9 +14,7 @@
     "node_modules"
   ],
   "dependencies": {
-    "espresso": "baristaio/espresso"
-  },
-  "devDependencies": {
+    "@baristaio/espresso": "git+https://github.com/baristaio/espresso.git",
     "babel-cli": "^6.26.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.0",
