@@ -6,7 +6,7 @@ const espresso = require('@baristaio/espresso');
 
 import { routes } from './routes';
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 80;
 console.log('Port =>', PORT);
 
 const localServiceDescriptor = {
@@ -14,8 +14,7 @@ const localServiceDescriptor = {
     port: PORT,
     name: 'My Super Service',
     description: 'the test service',
-    routes: routes,
-    env: 'local'
+    routes: routes
 };
 
 const service = espresso.getService(localServiceDescriptor);
